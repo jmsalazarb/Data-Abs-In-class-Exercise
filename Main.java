@@ -14,13 +14,16 @@ public class Main {
         int[] intArray = new int[]{1,2,2,4};
         int i;
         int j;
+        boolean flag = false;
         for(i = 0; i < intArray.length; i++){
             for(j = i+1; j < intArray.length; j++){
                 if (intArray[i] == intArray[j]){
-                    System.out.println("true");
+                    flag = true;
+                    break;
                 } 
             }
         }
+        System.out.println(flag);
     }
 }
 
