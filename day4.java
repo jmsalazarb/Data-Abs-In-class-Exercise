@@ -1,4 +1,4 @@
-public class findPairs {
+public class day4 {
     HashMap<Integer, Integer> pairMap = new HashMap<>();
     for (int[] pair : pairs) {
         int a = pair[0];
@@ -12,7 +12,7 @@ public class findPairs {
     }
 
     public static void main(String args []){
-        System.out.println(findPairs());
+        System.out.println(day4());
     }
 }
 
